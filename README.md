@@ -23,3 +23,13 @@ Taken using the GUI
 ![gvim viml](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/vimrc-windows.png)
 
 ![gvim misc](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/cmd+wildmenu.png)
+
+### GUI vs. CLI
+
+GUI:
+
+![GUI ruby](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/ruby.png)
+
+CLI:
+
+![CLI ruby](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/cli-ruby.png)
