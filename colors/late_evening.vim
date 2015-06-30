@@ -1,6 +1,6 @@
 " Vim color file
-" Maintainer:	Dan Church
-" Last Change:	2015 Jun 29
+" Maintainer:   Dan Church
+" Last Change:  2015 Jun 29
 
 " Forked from evening.vim with the following tweaks:
 
@@ -36,65 +36,100 @@ endif
 
 let colors_name = "late_evening"
 
-hi Normal ctermbg=black ctermfg=White guifg=White guibg=grey5
+hi Normal		ctermbg=black ctermfg=White guifg=White guibg=grey5
+
+" Cursor only applies to GUI mode
+hi Cursor		guibg=lightgreen guifg=Black
+hi lCursor		guibg=Cyan guifg=Black
 
 " Groups used in the 'highlight' and 'guicursor' options default value.
-hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White guibg=Red guifg=White
-hi IncSearch term=reverse cterm=reverse gui=reverse
-hi ModeMsg term=bold cterm=bold gui=bold
-hi StatusLine term=bold cterm=none ctermbg=238 gui=bold guibg=grey20
-hi StatusLineNC term=reverse cterm=reverse gui=reverse
-hi VertSplit term=reverse cterm=reverse gui=reverse
-hi Visual term=reverse cterm=reverse ctermbg=black guibg=grey40
-hi VisualNOS term=underline,bold cterm=underline,bold gui=underline,bold
-hi DiffText term=reverse cterm=bold ctermbg=Red gui=bold guibg=Red
-hi Cursor guibg=lightgreen guifg=Black
-hi lCursor guibg=Cyan guifg=Black
-hi Directory term=bold ctermfg=LightCyan guifg=Cyan
-hi LineNr term=underline ctermfg=blue guifg=steelblue
-hi MoreMsg term=bold ctermfg=82 gui=bold guifg=#60ff60
-hi NonText term=bold ctermfg=LightBlue gui=bold guifg=LightBlue guibg=grey10
-hi Question term=standout ctermfg=82 gui=bold guifg=#60ff60
-hi Search term=reverse ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
-hi SpecialKey term=bold ctermfg=LightBlue guifg=Cyan
-hi Title term=bold ctermfg=165 gui=bold guifg=Magenta
-hi WarningMsg term=standout ctermfg=196 guifg=Red
-hi WildMenu term=standout ctermbg=Yellow ctermfg=Black guibg=Yellow guifg=Black
-hi Folded term=standout ctermbg=LightGrey ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue
-hi FoldColumn term=standout ctermbg=LightGrey ctermfg=DarkBlue guibg=Grey guifg=DarkBlue
-hi DiffAdd term=bold ctermbg=DarkBlue guibg=DarkBlue
-hi DiffChange term=bold ctermbg=DarkMagenta guibg=DarkMagenta
-hi DiffDelete term=bold ctermfg=Blue ctermbg=DarkCyan gui=bold guifg=Blue guibg=DarkCyan
-hi CursorColumn term=reverse ctermbg=238 guibg=grey30
-hi CursorLine term=underline cterm=none ctermbg=238 guibg=grey30
-hi Comment cterm=bold ctermfg=blue
-hi TabLineSel term=bold cterm=reverse gui=reverse
-hi Type ctermfg=82 guifg=#60ff60
+hi ErrorMsg		ctermbg=darkred	ctermfg=white					guibg=red guifg=white
+hi IncSearch	cterm=reverse									gui=reverse
+hi ModeMsg		cterm=bold										gui=bold
+hi StatusLine	cterm=none ctermbg=238							gui=bold guibg=grey20
+hi StatusLineNC cterm=reverse									gui=reverse
+hi VertSplit	cterm=reverse									gui=reverse
+hi Visual		cterm=reverse ctermbg=black						guibg=grey40
+hi VisualNOS	cterm=underline,bold							gui=underline,bold
+hi DiffText		cterm=bold ctermbg=red							gui=bold guibg=Red
+hi Directory	ctermfg=lightcyan								guifg=cyan
+hi LineNr		ctermfg=blue									guifg=steelblue
+hi MoreMsg		ctermfg=82										gui=bold guifg=#60ff60
+hi NonText		ctermfg=lightblue								gui=bold guifg=lightblue guibg=grey10
+hi Question		ctermfg=82										gui=bold guifg=#60ff60
+hi Search		ctermbg=yellow ctermfg=black					guibg=yellow guifg=black
+hi SpecialKey	ctermfg=lightblue								guifg=cyan
+hi Title		ctermfg=165										gui=bold guifg=magenta
+hi WarningMsg	ctermfg=196										guifg=Red
+hi WildMenu		ctermbg=yellow ctermfg=black					guibg=yellow guifg=black
+hi Folded		ctermbg=lightgrey ctermfg=darkblue				guibg=lightgrey guifg=darkblue
+hi FoldColumn	ctermbg=lightgrey ctermfg=darkblue				guibg=grey guifg=darkblue
+hi DiffAdd		ctermbg=darkblue								guibg=darkblue
+hi DiffChange	ctermbg=darkmagenta								guibg=darkmagenta
+hi DiffDelete	ctermfg=blue ctermbg=darkcyan					gui=bold guifg=blue guibg=darkcyan
+hi CursorColumn ctermbg=238										guibg=grey30
+hi CursorLine	cterm=none ctermbg=238							guibg=grey30
+hi Comment		cterm=bold ctermfg=blue							guifg=#80a0ff
+hi TabLineSel	cterm=reverse									gui=reverse
+hi Type			ctermfg=82										guifg=#60ff60
 
-hi Ignore ctermfg=DarkGrey guifg=grey20
+hi Ignore		ctermfg=darkgrey								guifg=grey20
 " Groups for syntax highlighting
-hi Constant term=underline ctermfg=217 guifg=#ffa0a0 guibg=grey5
-hi Special term=bold ctermfg=LightRed guifg=Orange guibg=grey5
-hi Delimiter term=bold ctermfg=white guifg=white
+hi Constant		ctermfg=217										guifg=#ffa0a0 guibg=grey5
+hi Special		ctermfg=lightred								guifg=orange guibg=grey5
+hi Delimiter	ctermfg=white									guifg=white
 " bug fix
 hi PreProc ctermfg=magenta
 
 " Modifications for more colors
 if &t_Co > 8
-  hi Statement term=bold cterm=bold ctermfg=Yellow guifg=#ffff60 gui=bold
+  hi Statement	cterm=bold ctermfg=yellow						gui=bold guifg=#ffff60
 endif
 
 " Low color support
 if &t_Co < 17
-  hi CursorLine cterm=underline ctermbg=none
-  hi CursorColumn cterm=reverse ctermbg=Black
-  hi StatusLine cterm=bold ctermbg=black
-  hi Type ctermfg=green
-  hi MoreMsg ctermfg=LightGreen
-  hi Question ctermfg=LightGreen
-  hi Title ctermfg=LightMagenta
-  hi WarningMsg ctermfg=LightRed
-  hi Constant ctermfg=Magenta
+  hi CursorLine		cterm=underline ctermbg=none
+  hi CursorColumn	cterm=reverse ctermbg=black
+  hi StatusLine		cterm=bold ctermbg=black
+  hi Type			ctermfg=green
+  hi MoreMsg		ctermfg=lightgreen
+  hi Question       ctermfg=lightgreen
+  hi Title			ctermfg=lightmagenta
+  hi WarningMsg		ctermfg=lightred
+  hi Constant		ctermfg=magenta
 endif
 
-" vim: sw=2
+" Monochrome terminal support
+hi Constant		term=underline
+hi CursorColumn	term=reverse
+hi CursorLine	term=underline
+hi Delimiter	term=bold
+hi DiffAdd		term=bold
+hi DiffChange	term=bold
+hi DiffDelete	term=bold
+hi DiffText		term=reverse
+hi Directory	term=bold
+hi ErrorMsg		term=standout
+hi FoldColumn	term=standout
+hi Folded		term=standout
+hi IncSearch	term=reverse
+hi LineNr		term=underline
+hi ModeMsg		term=bold
+hi MoreMsg		term=bold
+hi NonText		term=bold
+hi Question		term=standout
+hi Search		term=reverse
+hi Special		term=bold
+hi SpecialKey	term=bold
+hi Statement	term=bold
+hi StatusLine	term=bold
+hi StatusLineNC	term=reverse
+hi TabLineSel	term=bold
+hi Title		term=bold
+hi VertSplit	term=reverse
+hi Visual		term=reverse
+hi VisualNOS	term=underline,bold
+hi WarningMsg	term=standout
+hi WildMenu		term=standout
+
+" vim: sw=2 ts=4
