@@ -20,8 +20,6 @@ Taken using the GUI
 
 ![gvim perl](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/perl.png)
 
-![gvim viml](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/vimrc-windows.png)
-
 ![gvim misc](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/cmd+wildmenu.png)
 
 ### GUI vs. CLI
