@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Dan Church
-" Last Change:  2015 Jun 29
+" Last Change:  2015 Jul 01
 
 " Forked from evening.vim with the following tweaks:
 
