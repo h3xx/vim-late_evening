@@ -4,7 +4,7 @@ This is a high-contrast, dark colorscheme for Vim that was forked from the `even
 
 After years of use, and countless hacks to get `evening` working properly, I got fed up and remade the colorscheme, keeping the same overall feel.
 
-**Attention has been paid to get high color terminals to have almost exactly the same colors as GUI vim.** ([example](#gui-vs-cli)) Use a terminal or GUI -- it's up to you.
+**Attention has been paid to get high color terminals to have almost exactly the same colors as GUI vim.** ([example](#screenshots)) Use a terminal or GUI -- it's up to you.
 
 Some compromises were made on 16-color terminals but that's to be expected, and won't apply to you if you use `TERM=xterm-256color`.
 
