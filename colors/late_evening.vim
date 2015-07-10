@@ -57,11 +57,11 @@ hi LineNr		ctermfg=32 ctermbg=234							guifg=steelblue guibg=grey20
 hi MoreMsg		ctermfg=82										gui=bold guifg=#60ff60
 hi NonText		ctermfg=lightblue ctermbg=233					gui=bold guifg=lightblue guibg=grey10
 hi Question		ctermfg=82										gui=bold guifg=#60ff60
-hi Search		ctermbg=yellow ctermfg=black					guibg=yellow guifg=black
+hi Search		ctermbg=226 ctermfg=black						guibg=yellow guifg=black
 hi SpecialKey	ctermfg=lightblue								guifg=cyan
 hi Title		ctermfg=165										gui=bold guifg=magenta
 hi WarningMsg	ctermfg=196										guifg=red
-hi WildMenu		ctermbg=yellow ctermfg=black					guibg=yellow guifg=black
+hi WildMenu		ctermbg=226 ctermfg=black						guibg=yellow guifg=black
 hi Folded		ctermbg=lightgrey ctermfg=darkblue				guibg=lightgrey guifg=darkblue
 hi FoldColumn	ctermbg=lightgrey ctermfg=darkblue				guibg=grey guifg=darkblue
 hi DiffAdd		ctermbg=darkblue								guibg=darkblue
@@ -96,8 +96,10 @@ if &t_Co < 17
   hi Type			ctermfg=green
   hi MoreMsg		ctermfg=lightgreen
   hi Question       ctermfg=lightgreen
+  hi Search			ctermbg=yellow
   hi Title			ctermfg=lightmagenta
   hi WarningMsg		ctermfg=lightred
+  hi WildMenu		ctermbg=yellow
   hi Constant		ctermfg=magenta
 endif
 
