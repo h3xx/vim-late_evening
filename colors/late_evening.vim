@@ -36,14 +36,14 @@ endif
 
 let colors_name = "late_evening"
 
-hi Normal		ctermbg=black ctermfg=white guifg=white guibg=grey5
+hi Normal		ctermfg=white ctermbg=black						guifg=white guibg=grey5
 
 " Cursor only applies to GUI mode
-hi Cursor		guibg=lightgreen guifg=black
-hi lCursor		guibg=cyan guifg=black
+hi Cursor		guifg=black guibg=lightgreen
+hi lCursor		guifg=black guibg=cyan
 
 " Groups used in the 'highlight' and 'guicursor' options default value.
-hi ErrorMsg		ctermbg=darkred	ctermfg=white					guibg=red guifg=white
+hi ErrorMsg		ctermfg=white ctermbg=darkred					guifg=white guibg=red
 hi IncSearch	cterm=reverse									gui=reverse
 hi ModeMsg		cterm=bold										gui=bold
 hi StatusLine	cterm=none ctermbg=238							gui=bold guibg=grey20
@@ -57,13 +57,13 @@ hi LineNr		ctermfg=32 ctermbg=234							guifg=steelblue guibg=grey20
 hi MoreMsg		ctermfg=82										gui=bold guifg=#60ff60
 hi NonText		ctermfg=lightblue ctermbg=233					gui=bold guifg=lightblue guibg=grey10
 hi Question		ctermfg=82										gui=bold guifg=#60ff60
-hi Search		ctermbg=226 ctermfg=black						guibg=yellow guifg=black
+hi Search		ctermfg=black ctermbg=226						guifg=black guibg=yellow
 hi SpecialKey	ctermfg=lightblue								guifg=cyan
 hi Title		ctermfg=165										gui=bold guifg=magenta
 hi WarningMsg	ctermfg=196										guifg=red
-hi WildMenu		ctermbg=226 ctermfg=black						guibg=yellow guifg=black
-hi Folded		ctermbg=lightgrey ctermfg=darkblue				guibg=lightgrey guifg=darkblue
-hi FoldColumn	ctermbg=lightgrey ctermfg=darkblue				guibg=grey guifg=darkblue
+hi WildMenu		ctermfg=black ctermbg=226						guifg=black guibg=yellow
+hi Folded		ctermfg=darkblue ctermbg=lightgrey				guifg=darkblue guibg=lightgrey
+hi FoldColumn	ctermfg=darkblue ctermbg=lightgrey				guifg=darkblue guibg=grey
 hi DiffAdd		ctermbg=darkblue								guibg=darkblue
 hi DiffChange	ctermbg=darkmagenta								guibg=darkmagenta
 hi DiffDelete	ctermfg=blue ctermbg=darkcyan					gui=bold guifg=blue guibg=darkcyan
