@@ -75,7 +75,7 @@ hi Type			ctermfg=82										guifg=#60ff60
 
 hi Ignore		ctermfg=darkgrey								guifg=grey20
 " Groups for syntax highlighting
-hi Constant		ctermfg=217										guifg=#ffa0a0 guibg=grey5
+hi Constant		ctermfg=217 ctermbg=234							guifg=#ffa0a0 guibg=grey5
 hi Special		ctermfg=lightred								guifg=orange guibg=grey5
 hi Delimiter	ctermfg=white									guifg=white
 " bug fix
@@ -100,7 +100,7 @@ if &t_Co < 17
   hi Title			ctermfg=lightmagenta
   hi WarningMsg		ctermfg=lightred
   hi WildMenu		ctermbg=yellow
-  hi Constant		ctermfg=magenta
+  hi Constant		ctermfg=magenta ctermbg=black
 endif
 
 " Monochrome terminal support
