@@ -79,7 +79,7 @@ hi Constant		ctermfg=217 ctermbg=234							guifg=#ffa0a0 guibg=grey5
 hi Special		ctermfg=lightred								guifg=orange guibg=grey5
 hi Delimiter	ctermfg=white									guifg=white
 " bug fix
-hi PreProc ctermfg=magenta
+hi PreProc		cterm=bold ctermfg=207
 
 " Modifications for more colors
 if &t_Co > 8
@@ -102,6 +102,7 @@ if &t_Co < 17
   hi WildMenu		ctermbg=yellow
   hi Comment		ctermfg=blue
   hi Constant		ctermfg=magenta ctermbg=black
+  hi PreProc		ctermfg=magenta
 endif
 
 " Monochrome terminal support
