@@ -43,7 +43,7 @@ hi Cursor		guifg=black guibg=lightgreen
 hi lCursor		guifg=black guibg=cyan
 
 " Groups used in the 'highlight' and 'guicursor' options default value.
-hi ErrorMsg		ctermfg=white ctermbg=darkred					guifg=white guibg=red
+hi ErrorMsg		ctermfg=black ctermbg=160						guifg=black guibg=#d70000
 hi IncSearch	cterm=reverse									gui=reverse
 hi ModeMsg		cterm=bold										gui=bold
 hi StatusLine	cterm=none ctermbg=238							gui=bold guibg=grey20
@@ -88,6 +88,7 @@ endif
 
 " Low color support
 if &t_Co < 17
+  hi ErrorMsg		ctermbg=darkred
   hi NonText		ctermbg=black
   hi CursorLine		cterm=underline ctermbg=none
   hi CursorColumn	cterm=reverse ctermbg=black
