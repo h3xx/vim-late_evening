@@ -73,6 +73,8 @@ hi Comment		cterm=bold ctermfg=63							guifg=#80a0ff
 hi TabLineSel	cterm=reverse									gui=reverse
 hi Type			ctermfg=82										guifg=#60ff60
 
+hi MatchParen	ctermbg=81										guifg=#5fd7ff
+
 hi Ignore		ctermfg=darkgrey								guifg=grey20
 " Groups for syntax highlighting
 hi Constant		ctermfg=217 ctermbg=234							guifg=#ffa0a0 guibg=grey5
@@ -104,6 +106,7 @@ if &t_Co < 17
   hi Comment		ctermfg=blue
   hi Constant		ctermfg=magenta ctermbg=black
   hi PreProc		ctermfg=magenta
+  hi MatchParen		ctermbg=cyan
 endif
 
 " Monochrome terminal support
