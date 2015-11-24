@@ -44,6 +44,8 @@ hi lCursor		guifg=black guibg=cyan
 
 " Groups used in the 'highlight' and 'guicursor' options default value.
 hi ErrorMsg		ctermfg=black ctermbg=160						guifg=black guibg=#d70000
+hi Error		ctermfg=black ctermbg=160						guifg=black guibg=#d70000
+hi SpellBad		ctermfg=black ctermbg=160						guifg=black guibg=#d70000
 hi IncSearch	cterm=reverse									gui=reverse
 hi ModeMsg		cterm=bold										gui=bold
 hi StatusLine	cterm=none ctermbg=238							gui=bold guibg=grey20
