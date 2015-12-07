@@ -71,6 +71,7 @@ hi DiffChange	ctermbg=darkmagenta								guibg=darkmagenta
 hi DiffDelete	ctermfg=blue ctermbg=darkcyan					gui=bold guifg=blue guibg=darkcyan
 hi CursorColumn ctermbg=238										guibg=grey30
 hi CursorLine	cterm=none ctermbg=238							guibg=grey30
+hi CursorLineNr	ctermbg=238										guibg=grey30
 hi Comment		cterm=bold ctermfg=63							guifg=#80a0ff
 hi TabLineSel	cterm=reverse									gui=reverse
 hi Type			ctermfg=82										guifg=#60ff60
