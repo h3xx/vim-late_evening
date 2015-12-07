@@ -95,7 +95,7 @@ endif
 if &t_Co < 17
   hi ErrorMsg		ctermbg=darkred
   hi NonText		ctermbg=black
-  hi CursorLine		cterm=underline ctermbg=none
+  hi CursorLine		cterm=reverse ctermbg=none
   hi CursorColumn	cterm=reverse ctermbg=black
   hi LineNr			ctermfg=blue ctermbg=black
   hi StatusLine		cterm=bold ctermbg=black
