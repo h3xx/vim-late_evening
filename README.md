@@ -12,17 +12,17 @@ Some compromises were made on 16-color terminals but that's to be expected, and 
 
 CLI:
 
-![vim ruby (CLI)](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/cli-ruby.png)
+![vim ruby (CLI)](/../flair/screenshots/cli-ruby.png)
 
 GUI:
 
 Font: [Terminess Powerline](//github.com/powerline/fonts)
 
-![gvim ruby (GUI)](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/ruby.png)
+![gvim ruby (GUI)](/../flair/screenshots/ruby.png)
 
-![gvim cpp](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/cpp.png)
+![gvim cpp](/../flair/screenshots/cpp.png)
 
-![gvim misc](https://raw.githubusercontent.com/h3xx/vim-late_evening/master/screenshots/cmd+wildmenu.png)
+![gvim misc](/../flair/screenshots/cmd+wildmenu.png)
 
 ## Contributing
 
